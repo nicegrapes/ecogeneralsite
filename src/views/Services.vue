@@ -151,7 +151,7 @@
 
     data: () => ({
       testimonial: {
-        blurb: 'With Alpha Construction managing all of our customer-facing services and ASCC, helping us monitor and understand building performance, Abocado is in great shape to create and release new products.',
+        blurb: 'With Eco General Construction managing all of our customer-facing services and ASCC, helping us monitor and understand building performance, Abocado is in great shape to create and release new products.',
         person: 'Jay Oakrson',
         title: 'CEO Abocado'
       }
