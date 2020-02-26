@@ -1,0 +1,78 @@
+<template>
+  <v-sheet
+    :height="$vuetify.breakpoint.smAndUp ? '60vh' : '100vh'"
+    color="primary"
+    tile
+  >
+    <v-img
+      :key="image"
+      :src="image"
+      gradient="to top, rgba(160, 90, 70, .85), rgba(30, 40, 30, .85)"
+      height="100%"
+    >
+      <v-container
+        fill-height
+        white--text
+      >
+        <v-slide-x-transition appear>
+          <v-col
+            align="center"
+            justify="center"
+          >
+            <h1
+              :class="$vuetify.breakpoint.smAndUp ? 'display-3' : 'display-2'"
+              class="mb-2"
+              v-text="title"
+            />
+            <div
+              class="title font-weight-light"
+              v-text="subtitle"
+            />
+          </v-col>
+        </v-slide-x-transition>
+      </v-container>
+    </v-img>
+  </v-sheet>
+</template>
+
+<script>
+  export default {
+    data: () => ({
+      titles: {
+        home: {
+          title: 'Build your future',
+          subtitle: 'Bringing the quality you deserve.'
+        },
+        services: {
+          title: 'Next Gen Development',
+          subtitle: 'Next Gen is the future of Insurance, we are here to leverage this amazing technology.'
+        },
+        projects: {
+          title: 'Premium Build Quality',
+          subtitle: 'Only the best. Thanks to our partners who provide cutting edge quality materials'
+        },
+        contact: {
+          title: 'Contact Us',
+          subtitle: 'You can reach out to us via our contact form.'
+        }
+      }
+    }),
+
+    computed: {
+      namespace () {
+        if (!this.$route || !this.$route.name) return ''
+
+        return this.$route.name.toLowerCase()
+      },
+      image () {
+        return '/static/' + this.namespace + '-hero.png'
+      },
+      subtitle () {
+        return this.titles[this.namespace].subtitle
+      },
+      title () {
+        return this.titles[this.namespace].title
+      }
+    }
+  }
+</script>
