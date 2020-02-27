@@ -51,7 +51,7 @@
         class="text-center blue-grey darken-4 pa-3"
         cols="12"
       >
-        &copy; 2020 Eco General Construction — All Rights reserved.
+        &copy; 2020 Eco General Cotractors — All Rights reserved.
       </v-col>
     </v-row>
   </v-footer>
