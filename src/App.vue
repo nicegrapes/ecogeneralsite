@@ -15,7 +15,7 @@
 <script>
   export default {
     metaInfo: {
-      titleTemplate: '%s — Alpha Construction'
+      titleTemplate: '%s — Eco General Contractors'
     },
 
     components: {
