@@ -62,7 +62,7 @@
                   Project {{ model + 1 }}
                 </h3>
                 <p class="mb-0">
-                  Suspendisse feugiat. Nam at tortor in tellus interdum sagittis. Suspendisse potenti. In hac habitasse platea dictumst. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.
+                  {{ descriptions[model]}}
                 </p>
               </v-col>
               <v-col
@@ -107,6 +107,15 @@
         '/static/project5.png',
         '/static/project6.png',
         '/static/project7.png'
+      ],
+      descriptions: [
+        'To build an everlasting environment of trust with our clients and team members that will foster customer loyalty by delivering',
+        'To build an everlasting environment of trust with our clients and team members that will foster customer loyalty by delivering',
+        'To build an everlasting environment of trust with our clients and team members that will foster customer loyalty by delivering',
+        'To build an everlasting environment of trust with our clients and team members that will foster customer loyalty by delivering',
+        'To build an everlasting environment of trust with our clients and team members that will foster customer loyalty by delivering',
+        'To build an everlasting environment of trust with our clients and team members that will foster customer loyalty by delivering',
+        'To build an everlasting environment of trust with our clients and team members that will foster customer loyalty by delivering'
       ]
     })
   }

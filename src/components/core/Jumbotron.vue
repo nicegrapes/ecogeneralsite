@@ -41,19 +41,19 @@
       titles: {
         home: {
           title: 'Build your future',
-          subtitle: 'Bringing the quality you deserve.'
+          subtitle: 'Bringing you the quality you deserve.'
         },
         services: {
           title: 'Next Gen Development',
-          subtitle: 'Next Gen is the future of Insurance, we are here to leverage this amazing technology.'
+          subtitle: 'Technology is changing the game and its awesome.'
         },
         projects: {
           title: 'Premium Build Quality',
-          subtitle: 'Only the best. Thanks to our partners who provide cutting edge quality materials'
+          subtitle: 'We only use the best in high-tech materials.'
         },
         contact: {
-          title: 'Contact Us',
-          subtitle: 'You can reach out to us via our contact form.'
+          title: 'Your Thoughts Count',
+          subtitle: 'Send us a message.'
         }
       }
     }),
