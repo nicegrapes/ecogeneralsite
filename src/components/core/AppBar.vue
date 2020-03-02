@@ -52,6 +52,10 @@
             'text': 'Home'
           },
           {
+            'to': '/team',
+            'text': 'Team'
+          },
+          {
             'to': '/services',
             'text': 'Services'
           },
