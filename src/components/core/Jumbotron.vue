@@ -41,12 +41,12 @@
       titles: {
         home: {
           title: 'Build your future',
-          subtitle: 'Bringing you the quality you deserve.',
+          subtitle: 'We are at your service.',
           img: 'home-hero.png'
         },
         team: {
           title: 'Eco General Contractors',
-          subtitle: 'Bringing you the quality you deserve.',
+          subtitle: 'Bringing the quality you deserve.',
           img: 'team-hero.jpg'
         },
         services: {
@@ -61,7 +61,7 @@
         },
         contact: {
           title: 'Get a Free Estimate',
-          subtitle: 'Send us a message.',
+          subtitle: 'Use the form below to request a free quote.',
           img: 'contact-hero.jpg'
         }
       }

@@ -13,7 +13,17 @@
       >
         <v-col class="grow hidden-sm-and-down">
           <h2 class="title">
-            Build your future today.
+            Call us for a free estimate!
+            <v-chip
+              class="ma-2 pa-2"
+              color="rgba(38, 50, 56, 0.45)"
+              text-color="white"
+            >
+              <v-icon right>mdi-phone</v-icon>
+              <v-text
+                class="pa-3"
+              >630 529 1975</v-text>
+            </v-chip>
           </h2>
         </v-col>
         <v-col class="shrink">

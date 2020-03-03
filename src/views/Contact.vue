@@ -11,7 +11,7 @@
           xs12
           md6
         >
-          <v-form>
+          <v-form netlify>
             <v-container pa-0>
               <v-row>
                 <v-col
