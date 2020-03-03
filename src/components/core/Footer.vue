@@ -1,15 +1,29 @@
 <template>
   <v-footer
     class="d-flex justify-space-around"
-    dark
+    color="rgba(38, 50, 56, 0.95)"
     height="auto"
   >
-    <v-row class="ma-0 font-weight-light d-flex justify-center">
+    <v-row
+      justify="center"
+      no-gutters
+    >
+      <v-btn
+        v-for="link in links"
+        :key="link"
+        :to="link.to"
+        color="white"
+        text
+        rounded
+        class="my-2"
+      >
+        {{ link.name }}
+      </v-btn>
       <v-col
-        class="text-center blue-grey darken-4 pa-3"
+        class="py-4 text-center white--text"
         cols="12"
       >
-        &copy; 2020 Eco General Contractors — All Rights reserved.
+        {{ new Date().getFullYear() }} — <strong>Eco General Contractors — All Rights reserved.</strong>
       </v-col>
     </v-row>
   </v-footer>
@@ -19,7 +33,14 @@
   export default {
     data: () => ({
       categories: [],
-      company: []
+      company: [],
+      links: [
+        { name: 'Home', to: '/' },
+        { name: 'Team', to: '/team' },
+        { name: 'Services', to: '/services' },
+        { name: 'Projects', to: '/projects' },
+        { name: 'Contact', to: '/contact' }
+      ]
     })
   }
 </script>

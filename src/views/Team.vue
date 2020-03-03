@@ -1,11 +1,11 @@
 <template>
 <section
   id="projects"
-  class="mb-n5"
+  class="mb-n5 py-5"
 >
-<heading>Meet the Team</heading>
+<heading>Meet Our Team</heading>
 <v-row
-  class="mb-8 mt-8"
+  class="mb-8 mt-8 py-5"
 >
   <v-card
     class="mx-auto mb-8"

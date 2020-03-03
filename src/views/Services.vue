@@ -16,7 +16,7 @@
         >
           <v-card outlined>
             <v-img
-              src="/static/project6.png"
+              src="/static/project6.jpg"
               height="250"
             />
           </v-card>
@@ -51,7 +51,7 @@
         >
           <v-card outlined>
             <v-img
-              src="/static/project4.png"
+              src="/static/project4.jpg"
               height="250"
             />
           </v-card>
@@ -95,7 +95,7 @@
         >
           <v-card outlined>
             <v-img
-              src="/static/project3.png"
+              src="/static/project3.jpg"
               height="250"
             />
           </v-card>

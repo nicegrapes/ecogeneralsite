@@ -41,19 +41,28 @@
       titles: {
         home: {
           title: 'Build your future',
-          subtitle: 'Bringing you the quality you deserve.'
+          subtitle: 'Bringing you the quality you deserve.',
+          img: 'home-hero.png'
+        },
+        team: {
+          title: 'Eco General Contractors',
+          subtitle: 'Bringing you the quality you deserve.',
+          img: 'team-hero.jpg'
         },
         services: {
           title: 'Next Gen Development',
-          subtitle: 'Technology is changing the game and its awesome.'
+          subtitle: 'Technology is changing the game and its awesome.',
+          img: 'services-hero.jpg'
         },
         projects: {
           title: 'Premium Build Quality',
-          subtitle: 'We only use the best in high-tech materials.'
+          subtitle: 'We only use the best in high-tech materials.',
+          img: 'projects-hero.png'
         },
         contact: {
-          title: 'Your Thoughts Count',
-          subtitle: 'Send us a message.'
+          title: 'Get a Free Estimate',
+          subtitle: 'Send us a message.',
+          img: 'contact-hero.png'
         }
       }
     }),
@@ -65,7 +74,7 @@
         return this.$route.name.toLowerCase()
       },
       image () {
-        return '/static/' + this.namespace + '-hero.png'
+        return '/static/' + this.titles[this.namespace].img
       },
       subtitle () {
         return this.titles[this.namespace].subtitle

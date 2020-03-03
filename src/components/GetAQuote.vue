@@ -19,6 +19,7 @@
         <v-col class="shrink">
           <v-btn
             outlined
+            to="/contact"
           >
             Get a Quote
           </v-btn>
