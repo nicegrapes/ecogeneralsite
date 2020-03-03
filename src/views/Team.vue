@@ -1,7 +1,7 @@
 <template>
 <section
   id="projects"
-  class="mb-n5"
+  class="mb-n5 mt-5"
 >
 <heading>Meet the Team</heading>
 <v-row
@@ -31,7 +31,7 @@
             size="220"
             tile
           >
-            <v-img src="/static/profile.jpg" />
+            <v-img src="/static/profile.png" />
           </v-avatar>
         </v-col>
         <v-col class="py-0">
@@ -75,7 +75,7 @@
             size="220"
             tile
           >
-            <v-img src="/static/luisProfile.jpg" />
+            <v-img src="/static/profile.png" />
           </v-avatar>
         </v-col>
         <v-col class="py-0">
@@ -88,96 +88,6 @@
               </v-list-item-title>
               <v-list-item-subtitle>
                 Manager
-              </v-list-item-subtitle>
-            </v-list-item-content>
-          </v-list-item>
-        </v-col>
-      </v-row>
-    </v-img>
-  </v-card>
-    <v-card
-    class="mx-auto mb-8"
-    max-width="200"
-    tile
-  >
-    <v-img
-      src="/static/martinBackground.png"
-      width="270"
-    >
-      <v-row
-        align="center"
-        class="fill-height"
-      >
-        <v-col
-          align-self="center"
-          class="pa-0"
-          cols="12"
-        >
-          <v-avatar
-            class="profile"
-            color="grey"
-            size="220"
-            tile
-          >
-            <v-img src="/static/martinProfile.png" />
-          </v-avatar>
-        </v-col>
-        <v-col class="py-0">
-          <v-list-item
-            color="black"
-          >
-            <v-list-item-content>
-              <v-list-item-title class="title">
-                Martin Janes
-              </v-list-item-title>
-              <v-list-item-subtitle>
-                Network Engineer
-              </v-list-item-subtitle>
-            </v-list-item-content>
-          </v-list-item>
-        </v-col>
-      </v-row>
-    </v-img>
-  </v-card>
-    <v-card
-    class="mx-auto mb-8"
-    max-width="200"
-    tile
-    dark
-  >
-    <v-img
-      src="/static/martinBackground.jpg"
-    >
-      <v-row
-        align="center"
-        class="fill-height"
-      >
-        <v-col
-          align-self="center"
-          class="pa-0"
-          cols="12"
-        >
-          <v-avatar
-            class="profile"
-            color="grey"
-            size="220"
-            tile
-          >
-            <v-img src="/static/martinProfile.jpg" />
-          </v-avatar>
-        </v-col>
-        <v-col class="py-0">
-          <v-list-item
-            color="black"
-          >
-            <v-list-item-content>
-              <v-list-item-title class="title">
-                Martin Janes
-              </v-list-item-title>
-              <v-list-item-subtitle
-                class="mb-2"
-              >
-                Network Engineer
               </v-list-item-subtitle>
             </v-list-item-content>
           </v-list-item>
@@ -209,7 +119,7 @@
             size="220"
             tile
           >
-            <v-img src="/static/martinProfile.png" />
+            <v-img src="/static/profile.png" />
           </v-avatar>
         </v-col>
         <v-col class="py-0">
@@ -221,7 +131,7 @@
                 Martin Janes
               </v-list-item-title>
               <v-list-item-subtitle>
-                Network Engineer
+                Marketing and Sales
               </v-list-item-subtitle>
             </v-list-item-content>
           </v-list-item>
