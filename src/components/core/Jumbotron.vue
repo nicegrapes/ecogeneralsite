@@ -62,7 +62,7 @@
         contact: {
           title: 'Get a Free Estimate',
           subtitle: 'Send us a message.',
-          img: 'contact-hero.png'
+          img: 'contact-hero.jpg'
         }
       }
     }),
