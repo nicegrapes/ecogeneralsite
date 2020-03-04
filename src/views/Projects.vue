@@ -100,20 +100,16 @@
     data: () => ({
       model: 0,
       projects: [
-        '/static/project1.jpg',
-        '/static/project2.jpg',
-        '/static/project3.jpg',
-        '/static/project4.jpg',
-        '/static/project5.jpg',
-        '/static/project6.jpg',
-        '/static/project7.jpg',
-        '/static/project8.jpg',
-        '/static/project9.jpg',
-        '/static/project10.jpg'
+        '/static/project1.png',
+        '/static/project2.png',
+        '/static/project3.png',
+        '/static/project4.png',
+        '/static/project5.png',
+        '/static/project6.png',
+        '/static/project7.png',
+        '/static/project8.png'
       ],
       descriptions: [
-        'To build an everlasting environment of trust with our clients and team members that will foster customer loyalty by delivering',
-        'To build an everlasting environment of trust with our clients and team members that will foster customer loyalty by delivering',
         'To build an everlasting environment of trust with our clients and team members that will foster customer loyalty by delivering',
         'To build an everlasting environment of trust with our clients and team members that will foster customer loyalty by delivering',
         'To build an everlasting environment of trust with our clients and team members that will foster customer loyalty by delivering',

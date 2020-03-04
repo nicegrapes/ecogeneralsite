@@ -47,12 +47,12 @@
         team: {
           title: 'Eco General Contractors',
           subtitle: 'Bringing the quality you deserve.',
-          img: 'team-hero.jpg'
+          img: 'team-hero.png'
         },
         services: {
           title: 'Next Gen Development',
           subtitle: 'Technology is changing the game and its awesome.',
-          img: 'services-hero.jpg'
+          img: 'services-hero.png'
         },
         projects: {
           title: 'Premium Build Quality',
@@ -62,7 +62,7 @@
         contact: {
           title: 'Get a Free Estimate',
           subtitle: 'Use the form below to request a free quote.',
-          img: 'contact-hero.jpg'
+          img: 'contact-hero.png'
         }
       }
     }),

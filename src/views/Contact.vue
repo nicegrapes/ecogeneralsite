@@ -4,14 +4,23 @@
     class="py-5"
   >
     <heading>Contact Us</heading>
-
     <v-container>
       <v-row>
         <v-col
           xs12
           md6
         >
-          <v-form netlify>
+          <v-form
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+            name="clientSubmission"
+            method="POST"
+          >
+            <input
+              type="hidden"
+              name="clientSubmission"
+              value="clientSubmission"
+            />
             <v-container pa-0>
               <v-row>
                 <v-col
@@ -80,6 +89,7 @@
                     color="primary"
                     depressed
                     x-large
+                    type="submit"
                   >
                     Send Message
                   </v-btn>
@@ -152,7 +162,6 @@
         { name: 'description', content: 'Customized vue-cli templates for Vue and Vuetify' }
       ]
     },
-
     components: {
       Heading: () => import('@/components/Heading')
     }
