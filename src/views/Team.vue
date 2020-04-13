@@ -87,51 +87,7 @@
                 Luis Bridge
               </v-list-item-title>
               <v-list-item-subtitle>
-                Manager
-              </v-list-item-subtitle>
-            </v-list-item-content>
-          </v-list-item>
-        </v-col>
-      </v-row>
-    </v-img>
-  </v-card>
-  <v-card
-    class="mx-auto mb-8"
-    max-width="200"
-    tile
-  >
-    <v-img
-      src="/static/martinBackground.png"
-      width="270"
-    >
-      <v-row
-        align="center"
-        class="fill-height"
-      >
-        <v-col
-          align-self="center"
-          class="pa-0"
-          cols="12"
-        >
-          <v-avatar
-            class="profile"
-            color="grey"
-            size="220"
-            tile
-          >
-            <v-img src="/static/profile.png" />
-          </v-avatar>
-        </v-col>
-        <v-col class="py-0">
-          <v-list-item
-            color="black"
-          >
-            <v-list-item-content>
-              <v-list-item-title class="title">
-                Martin Janes
-              </v-list-item-title>
-              <v-list-item-subtitle>
-                Marketing and Sales
+                Project Manager
               </v-list-item-subtitle>
             </v-list-item-content>
           </v-list-item>
