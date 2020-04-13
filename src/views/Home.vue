@@ -40,7 +40,7 @@
 
     <v-container
       id="testimonials"
-      class="py-5"
+      class="py-5 pb-10"
       tag="section"
     >
       <heading>Testimonials</heading>
@@ -59,13 +59,14 @@
 
     <v-container
       id="highlighted-testimonial"
-      class="pt-5 px-0 mb-n3"
+      class="pt-5 px-0"
       fluid
       tag="section"
     >
       <v-parallax
         contain
         src="/static/home-parallax.jpg"
+        class="mb-n5"
       >
         <v-overlay
           absolute
@@ -78,39 +79,6 @@
           />
         </v-overlay>
       </v-parallax>
-    </v-container>
-
-    <v-container
-      id="why-us"
-      class="px-3 py-12 mb-n9 grey lighten-3"
-      fluid
-      tag="section"
-    >
-      <heading>Subscribe to our <span class="primary--text">Newsletter</span></heading>
-
-      <v-row justify="center">
-        <v-col
-          cols="12"
-          sm="6"
-          md="4"
-        >
-          <v-text-field
-            hide-details
-            label="Email"
-            solo
-            color="secondary"
-            outlined
-            single-line
-            flat
-          >
-            <template v-slot:append>
-              <v-btn color="primary">
-                Subscribe
-              </v-btn>
-            </template>
-          </v-text-field>
-        </v-col>
-      </v-row>
     </v-container>
   </div>
 </template>
@@ -132,37 +100,37 @@
 
     data: () => ({
       highlightedTestimonial: {
-        blurb: 'The complexities and challenges Eco General Contractors successfully overcame on our behalf includes substantial permit obstacles, coordination and selection support of all design and finish materials, and the diffculty of integrating existing and new structures.',
-        person: 'Joe Malonagi',
-        title: 'General Manager, Springfield Tower'
+        blurb: 'We know that you have lots of options to choose from when it comes to roofing and exteriors. We can’t speak of how other companies operate, but one thing we can guarantee here at EGC is our 100% commitment to getting your job done right.',
+        person: 'Luis Puente',
+        title: 'Project Manager'
       },
       features: [
         {
-          title: 'Award-winning architecture',
-          text: 'Every achievement begins with a vision. It is built on a foundation of creative concepts and dreams to become something bigger and better. At AlphaConstruction we build with those who follow a vision, not a path.',
+          title: 'Getting it done right',
+          text: 'At EGC we strive for excellence. We will aim to remodel your home to meet your standards and give it the curbside appeal it deserves.',
           src: '/static/feature1.png'
         },
         {
-          title: 'Relentless pursuit of your vision',
+          title: 'Working to achieve your goals',
           text: 'Our commitment to excellence and continous improvement, to building lasting relationships with our clients, and to the team members who create your vision, are the guiding principles that assure successful outcomes on every project we build.',
           src: '/static/feature2.png'
         },
         {
-          title: 'Your vision - Our mission',
-          text: 'To build an everlasting environment of trust with our clients and team members that will foster customer loyalty by delivering superior service and quality projects.',
+          title: 'Professionalism',
+          text: 'We understand construction may seem like a hassle, but our project managers will work with you to make the process a smooth and stress-free experience. With over 500 projects completed, our experience and know how will shine through, allowing you to sit back and enjoy the results!',
           src: '/static/feature3.png'
         }
       ],
       testimonials: [
         {
-          blurb: 'Leverage agile frameworks to provide a robust synopsis for high level over Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.',
+          blurb: 'I can’t recommend ECG highly enough. I’ve got to admit I was a bit skeptical at first, but after everything was explained to me clearly regarding the insurance process, I decided to go for it, and boy was I happy with the results! The crew did an amazing job and my house looks great!',
           person: 'Nancy Swanson',
-          title: 'President, Springfield Country Club'
+          title: 'Jerry, East Hazel Crest'
         },
         {
-          blurb: 'Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.',
-          person: 'Jason Schraiber',
-          title: 'Mayor, Chicago Heights'
+          blurb: 'EGC did an amazing job replacing my siding and installing a new roof last summer.  My house was pretty shabby beforehand as it suffered from a hail and wind storm...it looked awful. These folks came out right away and handled all the paperwork with my insurance company...Manny was awesome. The work was performed quickly and professionally....and I’m in love with the new color of my house. Love driving up to it everyday!',
+          person: 'Denys- Berwyn',
+          title: 'General Manager, Springfield Tower'
         }
       ]
     })
