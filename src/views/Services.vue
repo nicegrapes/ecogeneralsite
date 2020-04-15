@@ -31,10 +31,10 @@
             flat
             color="transparent"
           >
-            <v-card-title>Realtime Global Deployments</v-card-title>
-
+            <v-card-title>Claims process</v-card-title>
+            
             <v-card-text>
-              Te dolor consul mei, etiam molestie indoctum usu ad, qui inermis eleifend an. Pro iriure alienum incorrupte ex, cu diceret moderatius mei. Te corrumpit posidonium sit, in cum nonumy utamur. Usu impedit patrioque vituperatoribus ei, cu voluptua nominati philosophia mel. Sea at legendos percipitur, nulla dicant convenire ne duo. Veniam epicuri vis cu, ea pri alii ceteros fierent.
+              If your home was affected by the weather, we can help! Our representatives will point you in the direction of a licensed Public Adjuster firm, who will guide you through the claims process to ensure an optimal outcome. Proper representation is very important when it comes to claims, and we will make sure you are in the right hands. 
             </v-card-text>
           </v-card>
         </v-col>
@@ -66,19 +66,11 @@
             color="transparent"
             flat
           >
-            <v-card-title>Focus On What Drives Your Business</v-card-title>
+            <v-card-title>Construction</v-card-title>
 
             <v-card-text>
               <p>
-                Lorem ipsum dolor sit amet, ea mutat tation constituam per, mei error ocurreret definiebas ne. Te harum constituto inciderint his. Vis no delenit mediocritatem. His et debet possim perpetua, assum argumentum ne quo, constituto eloquentiam sea ne. Ne has ludus graecis fabellas.
-              </p>
-
-              <p>
-                Ei est iriure partiendo, ius falli tritani accumsan ad, mea altera eripuit fierent ut. Te quem legere fastidii ius. Ei vis quod qualisque, ignota nemore cotidieque mea eu. Scripta labitur ei vel, mei case quidam corpora no, est dico sale utroque ne. Eu erroribus delicatissimi eum, ut quem veri tincidunt vim.
-              </p>
-
-              <p>
-                Velit eruditi an est, cu eius graeci sed. Vel ei dolorem sapientem temporibus. No his omnes meliore maiestatis, mei iisque molestiae gubergren ex. Usu placerat liberavisse et, eam dicta blandit evertitur an. Ea vim fabellas indoctum maiestatis.
+                We are fully licensed, bonded and insured. Our representatives will provide you with a wide range of quality materials for you to choose from. From there, our experienced builders will aim to complete your project in a timely and efficient fashion. Upon completion, our representatives will do a quality check walkthrough with you to ensure everything is completed to your satisfaction. 
               </p>
             </v-card-text>
           </v-card>
@@ -110,14 +102,14 @@
             flat
             color="transparent"
           >
-            <v-card-title>Business Development That Just Works</v-card-title>
+            <v-card-title>Your future home</v-card-title>
 
             <v-card-text>
               <p>
-                Te dolor consul mei, etiam molestie indoctum usu ad, qui inermis eleifend an. Pro iriure alienum incorrupte ex, cu diceret moderatius mei. Te corrumpit posidonium sit, in cum nonumy utamur. Usu impedit patrioque vituperatoribus ei, cu voluptua nominati philosophia mel. Sea at legendos percipitur, nulla dicant convenire ne duo. Veniam epicuri vis cu, ea pri alii ceteros fierent.
+                Protection from the elements: Many older homes in the Chicagoland area are lacking in proper insulation and exterior weather protection. For that reason, we will install code required items such as Ice and Water shield protection for roofs, and fanfold insulation and a moisture barrier beneath the siding. All our work is completed up to state and local building codes. 
               </p>
               <p>
-                Te dolor consul mei, etiam molestie indoctum usu ad, qui inermis eleifend an. Pro iriure alienum incorrupte ex, cu diceret moderatius mei. Te corrumpit posidonium sit, in cum nonumy utamur. Usu impedit patrioque vituperatoribus ei, cu voluptua nominati philosophia mel. Sea at legendos percipitur, nulla dicant convenire ne duo. Veniam epicuri vis cu, ea pri alii ceteros fierent.
+                Warranties- We offer a 5 year labor warranty on all our work. Roofing and siding products carry the manufacturers warranty as well. 
               </p>
             </v-card-text>
           </v-card>
