@@ -124,13 +124,13 @@
       testimonials: [
         {
           blurb: 'I can’t recommend ECG highly enough. I’ve got to admit I was a bit skeptical at first, but after everything was explained to me clearly regarding the insurance process, I decided to go for it, and boy was I happy with the results! The crew did an amazing job and my house looks great!',
-          person: 'Nancy Swanson',
-          title: 'Jerry, East Hazel Crest'
+          person: 'Jerry',
+          title: 'East Hazel Crest'
         },
         {
           blurb: 'EGC did an amazing job replacing my siding and installing a new roof last summer.  My house was pretty shabby beforehand as it suffered from a hail and wind storm...it looked awful. These folks came out right away and handled all the paperwork with my insurance company...Manny was awesome. The work was performed quickly and professionally....and I’m in love with the new color of my house. Love driving up to it everyday!',
-          person: 'Denys- Berwyn',
-          title: 'General Manager, Springfield Tower'
+          person: 'Denys',
+          title: 'Berwyn'
         }
       ]
     })
