@@ -47,6 +47,7 @@
 
 <style lang="sass">
   .v-application .v-footer
+    margin-top:"-12px"
     ul
       list-style-type: none
 
@@ -56,4 +57,10 @@
 
       &:hover
         color: grey
+</style>
+
+<style>
+.v-footer {
+  margin-top: -12px;
+}
 </style>

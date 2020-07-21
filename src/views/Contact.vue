@@ -15,12 +15,13 @@
             data-netlify-honeypot="bot-field"
             name="clientSubmission"
             method="POST"
+            action="/"
           >
             <input
               type="hidden"
               name="clientSubmission"
               value="clientSubmission"
-            />
+            >
             <v-container pa-0>
               <v-row>
                 <v-col
@@ -131,7 +132,7 @@
                   <div>630 529 1975</div>
                   <div>(fax) 630 529 1955</div>
                   <div>
-                    <a href="#">contact@ecoshieldcontractors.com</a>
+                    <a href="#">contact@ecogeneralconstruction.com</a>
                   </div>
                 </v-card-text>
               </v-col>

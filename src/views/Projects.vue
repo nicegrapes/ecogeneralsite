@@ -5,6 +5,10 @@
   >
     <heading>Our Projects</heading>
 
+    <before-after
+      class="mb-6 mt-6"
+    ></before-after>
+
     <v-slide-group
       v-model="model"
       show-arrows
@@ -94,7 +98,8 @@
     },
 
     components: {
-      Heading: () => import('@/components/Heading')
+      Heading: () => import('@/components/Heading'),
+      BeforeAfter: () => import('@/components/BeforeAfter')
     },
 
     data: () => ({
